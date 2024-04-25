@@ -1,0 +1,166 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Jersey+15&family=Lexend+Deca:wght@100..900&display=swap');
+
+/* @import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@100..900&family=DM+Serif+Display:ital@0;1&family=Jersey+15&family=Lexend+Deca:wght@100..900&display=swap'); */
+
+
+
+
+.main{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+}
+.sedans{
+  display: flex;
+  flex-direction: column;
+  /* justify-content:space-around; */
+  align-items:center;
+  
+  height:70%;
+  width: 300px;
+  background-color: hsl(31, 77%, 52%);
+  border-top-left-radius:15px ;
+  border-bottom-left-radius:15px ;
+}
+
+ 
+.sedan2{
+  /* border: 2px solid black; */
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content:space-evenly ;
+  height:75% ;
+  width: 100%;
+  padding-left: 40px;
+  padding-right: 30px;
+
+
+}
+.icon{
+  display: flex;
+  align-items:start ;
+  justify-content: left;
+  /* border: 2px solid black; */
+  height:15%;
+  width: 60%;
+  /* padding-bottom:10px ; */
+
+}
+.cartype{
+   
+    font-family: "Big Shoulders Display", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700 ;
+    font-style: normal;
+    font-size: 40px;
+    color: hsl(0, 0%, 95%);
+  
+   
+}
+.para{
+  font-family: "Lexend Deca", sans-serif;
+  color: hsla(0, 0%, 100%, 0.75);
+  text-align: left;
+}
+.learnmore{
+  /* border: 2px solid black; */
+  height: 25%;
+  width: 100%;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  padding-left: 40px;
+}
+.learnmore > p{
+  /* border: 1px solid black; */
+  height: 40% ;
+  width:60% ;
+  text-align: center;
+  padding-top: 13px;
+  border-radius: 30px;
+  background-color: hsl(0, 0%, 95%);
+  font-family: "Lexend Deca", sans-serif;
+  /* color: ; */
+}
+#sedan{
+  font-weight: 500;
+  color:hsl(31, 77%, 52%) ;
+}
+#sedan:hover{
+  background-color: hsl(31, 77%, 52%) ;
+  color: hsl(0, 0%, 95%);
+  border: 2px solid ;
+}
+
+.suvs{
+  display: flex;
+  flex-direction: column;
+  /* justify-content:space-around; */
+  align-items:center;
+  
+  height:70%;
+  width: 300px;
+  
+  background-color: hsl(184, 100%, 22%);
+
+}
+#suvs{
+  font-weight: 500;
+  color:hsl(184, 100%, 22%) ;
+}
+#suvs:hover{
+  background-color: hsl(184, 100%, 22%) ;
+  color: hsl(0, 0%, 95%);
+  border: 2px solid ;
+}
+.luxury{
+  display: flex;
+  flex-direction: column;
+  /* justify-content:space-around; */
+  align-items:center;
+  
+  height:70%;
+  width: 300px;
+   
+  border-top-right-radius:15px;
+  border-bottom-right-radius:15px;
+
+  background-color: hsl(179, 100%, 13%);
+
+}
+#luxury{
+  font-weight: 500;
+  color:hsl(179, 100%, 13%); 
+}
+#luxury:hover{
+  background-color: hsl(179, 100%, 13%);  ;
+  color: hsl(0, 0%, 95%);
+  border: 2px solid ;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
